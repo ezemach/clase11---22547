@@ -1,0 +1,66 @@
+.container{
+
+    display: flex;
+    width: 80%;
+    height: 500px;
+    margin:auto;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#uno,#dos,#tres {
+
+width: 320px;
+height: 470px;
+background-color: lightgray;
+border-radius: 10px;
+box-shadow:-10px 10px 10px gray ;
+}
+
+#dos {
+align-self: center;
+}
+
+img{
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+ border-bottom: red solid 2px;
+}
+
+p {
+    padding: 10px;
+    text-align: justify;
+}
+
+.botonesVerdes {
+    background-color: green;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 10px;
+
+}
+
+.botonesRojos {
+    background-color: red;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.botonesVerdes:hover{
+
+    background-color: lightgreen;
+}
+
+.botonesRojos:hover {
+
+    background-color: lightcoral;
+}
